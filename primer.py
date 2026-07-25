@@ -9,7 +9,7 @@ from watchdog.events import FileSystemEventHandler
 # ==========================================
 CARPETA_A_VIGILAR = os.path.expanduser("~/carpeta protegida")
 
-# ⚠️ NUNCA SUBIR EL TOKEN NI EL CHAT_ID A GITHUB
+# ⚠️ NUNCA PUBLICAR EL TOKEN
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "COLOCA TU TOKEN PRIVADO AQUI")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "COLOCA TU ID PERSONAL")
 
